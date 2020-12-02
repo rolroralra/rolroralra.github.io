@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "rolroralra"
-  avatar           : "/assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : # "/assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Hello **Jekyll**"
   location         : "SEOUL"
   email            : "rolroralra@naver.com"
