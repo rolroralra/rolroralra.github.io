@@ -11,17 +11,17 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme             : "mmistakes/minimal-mistakes@4.21.0"
-# remote_theme           : "mmistakes/minimal-mistakes"
+# remote_theme             : "mmistakes/minimal-mistakes@4.21.0"
+ remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Hello Jekyll"
+locale                   : "ko-KR"
+title                    : "Hello github.io"
 title_separator          : "-"
-subtitle                 : "rolroralra's Jekyll blog" # site tagline that appears below site title in masthead
+subtitle                 : "rolroralra's blog" # site tagline that appears below site title in masthead
 name                     : "rolroralra"
-description              : "rolroralra's Jekyll blog."
+description              : "rolroralra's blog."
 url                      : "https://rolroralra.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rolroralra/rolroralra.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -40,9 +40,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : "dark" # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : "github-dark" # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "rolroralra"
   avatar           : # "/assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Hello **Jekyll**"
+  bio              : "Hello **Github Blog**"
   location         : "SEOUL"
   email            : "rolroralra@naver.com"
   links:
@@ -130,7 +130,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+#       url: "https://github.com"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
